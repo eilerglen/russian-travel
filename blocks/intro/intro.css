@@ -1,0 +1,9 @@
+.intro {
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    width: 690px;
+    border: solid 1px red;
+    border-radius: nullpx;
+    
+}

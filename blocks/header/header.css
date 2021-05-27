@@ -1,0 +1,6 @@
+.header {
+    display: flex;
+    width: 1184px;
+    min-height: 52px;
+    border: solid 1px red;
+}

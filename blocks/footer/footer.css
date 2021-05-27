@@ -1,0 +1,7 @@
+.footer {
+    display: flex;
+    width: 1184px;
+    min-height: 18px;
+    border: solid 1px red;
+    justify-content: space-between;
+}
