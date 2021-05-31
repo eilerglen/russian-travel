@@ -2,5 +2,6 @@
     display: flex;
     width: 1184px;
     min-height: 52px;
+    background-color: #1b1a1a;
     border: solid 1px red;
 }
