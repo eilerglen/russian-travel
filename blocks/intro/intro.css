@@ -5,5 +5,15 @@
     max-width: 690px;
     border: solid 1px red;
     border-radius: nullpx;
+    padding-left: 92px;
     
 }
+
+@media screen and (max-width: 320px) {
+    .intro {
+      padding: 64px 0;
+      max-width: 90%;
+      font-size: 32px;
+      line-height: 35px;
+    }
+  }
