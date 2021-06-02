@@ -1,12 +1,9 @@
 .page {
     margin: 0 auto;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     /* мы ещё не умеем делать мобильную версию сайта, */
     /* поэтому выше установлена минимальная ширина страницы */
-    min-width: 320px;
+
     background-color: #2A2C2F;
     /* выше установили ограничение по максимальной ширине */
     margin: 0 auto;

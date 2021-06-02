@@ -1,8 +1,9 @@
-.place  {
+.place {
     display: grid;
-    max-width: 984px;
     grid-template-columns: 460px 1fr;
-    grid-gap: 40px;
-    border: solid 1px yellow;
+    grid-column-gap: 40px;
+    grid-template-rows: max-content max-content;
+    grid-row-gap: 48px;
+    
 
 }
