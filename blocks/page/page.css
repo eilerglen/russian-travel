@@ -13,5 +13,6 @@
 
     color: honeydew;
     border: solid 1px black;
+    text-rendering: optimizeLegibility;
 }
  

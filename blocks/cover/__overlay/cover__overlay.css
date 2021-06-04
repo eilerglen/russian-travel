@@ -1,10 +1,24 @@
 .cover__overlay {
-    display: grid;
-    max-width: 1184px;
+    min-height: 740px;
     width: 100%;
-    margin: 0 auto;
-    align-items: center;
-    transition: opacity .3s ease-in-out;
     text-decoration: none;
-
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../../images/cover-trains.jpg);
+    background-position: center;
+    background-size: cover;
+    
 }
+
+
+.cover__overlay::before {
+    opacity: 0;
+   
+  }
+  
+  .cover__overlay:hover::before {
+    opacity: 0.8;
+  }

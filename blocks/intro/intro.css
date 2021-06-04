@@ -1,19 +1,6 @@
 .intro {
-    align-self: flex-start;
-    display: flex;
-    flex-direction: column;
-    max-width: 690px;
-    border: solid 1px red;
-    border-radius: nullpx;
-    padding-left: 92px;
-    
+    max-width: 984px;
+    padding-top: 114px;
+    padding-bottom: 92px;
 }
 
-@media screen and (max-width: 320px) {
-    .intro {
-      padding: 64px 0;
-      max-width: 90%;
-      font-size: 32px;
-      line-height: 35px;
-    }
-  }
