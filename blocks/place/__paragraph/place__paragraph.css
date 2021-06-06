@@ -1,6 +1,16 @@
 .place__paragraph {
-  margin-top: 0;
-  margin-bottom: 26px;
+  margin-top: 0 0 26px 0;
   font-size: 18px;
+  line-height: 163%;
+}
 
+.place__paragraph:last-child {
+  margin: 0;
+}
+
+
+@media screen and (max-width: 760px) {
+  .place__paragraph {
+    padding: 0 16px;
+  }
 }

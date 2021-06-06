@@ -1,8 +1,8 @@
 .lead__image {
-    height: 615px;
-    width: 984px;
-    object-fit: contain;
-    object-position: top left;
+    width: 100%;
+    max-width: 984px;
+    object-fit: cover;
+    object-position: center;
     border-style: none;
     margin-bottom: 0 0 8px 0;
 }
